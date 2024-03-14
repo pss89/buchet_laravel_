@@ -5,4 +5,7 @@
 <div>
     test 본문 내용
 </div>
+<!-- <script>
+    // alert("test 본문내용");
+</script> -->
 @endsection
