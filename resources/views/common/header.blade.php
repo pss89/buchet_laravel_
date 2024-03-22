@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buchet Laravel - Community</title>
+    <title>
+        {{ env('APP_TITLE') }}
+    </title>
     <!-- <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script> -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
